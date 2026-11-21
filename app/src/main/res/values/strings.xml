@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">iFood ROI Tracker</string>
+    <string name="accessibility_service_name">iFood ROI Tracker - Leitor de Tela</string>
+    <string name="accessibility_service_description">Lê ofertas de corrida do iFood para calcular se vale a pena aceitar</string>
+    <string name="app_short_name">ROI Tracker</string>
+
+    <!-- Telas -->
+    <string name="screen_home">Início</string>
+    <string name="screen_settings">Configurações</string>
+    <string name="screen_history">Histórico</string>
+    <string name="screen_stats">Estatísticas</string>
+
+    <!-- Home -->
+    <string name="home_status_active">Monitorando ativo</string>
+    <string name="home_status_inactive">Monitoramento parado</string>
+    <string name="home_status_accessibility_off">Acessibilidade desativada</string>
+    <string name="home_status_overlay_off">Overlay desativado</string>
+    <string name="home_last_offer">Última oferta</string>
+    <string name="home_no_offers">Nenhuma oferta detectada ainda</string>
+    <string name="home_today_earnings">Ganhos hoje</string>
+    <string name="home_today_deliveries">Entregas hoje</string>
+    <string name="home_avg_km">Méd. R$/km hoje</string>
+    <string name="home_avg_hour">Méd. R$/h hoje</string>
+
+    <!-- Settings -->
+    <string name="settings_thresholds">Limiares de Aceitação</string>
+    <string name="settings_min_value_per_km">Mínimo R$/km</string>
+    <string name="settings_min_value_per_hour">Mínimo R$/h</string>
+    <string name="settings_max_distance">Distância máxima (km)</string>
+    <string name="settings_min_value_total">Valor mínimo total (R$)</string>
+    <string name="settings_peak_multiplier">Multiplicador horário de pico</string>
+    <string name="settings_peak_hours_start">Início do pico</string>
+    <string name="settings_peak_hours_end">Fim do pico</string>
+    <string name="settings_advanced">Avançado</string>
+    <string name="settings_auto_dismiss">Auto-fechar overlay (seg)</string>
+    <string name="settings_vibration">Vibrar na decisão</string>
+    <string name="settings_sound">Som na decisão</string>
+    <string name="settings_show_on_lockscreen">Mostrar na tela de bloqueio</string>
+    <string name="settings_data">Dados</string>
+    <string name="settings_export_csv">Exportar CSV</string>
+    <string name="settings_import_csv">Importar CSV</string>
+    <string name="settings_backup">Backup completo</string>
+    <string name="settings_restore">Restaurar backup</string>
+    <string name="settings_clear_history">Limpar histórico</string>
+    <string name="settings_about">Sobre</string>
+    <string name="settings_version">Versão</string>
+
+    <!-- Overlay -->
+    <string name="overlay_worth_it">VALE A PENA ✅</string>
+    <string name="overlay_not_worth">NÃO VALE ❌</string>
+    <string name="overlay_borderline">AVALIAR ⚠️</string>
+    <string name="overlay_value">Valor: R$ %.2f</string>
+    <string name="overlay_distance">Distância: %.1f km</string>
+    <string name="overlay_time">Tempo est.: %d min</string>
+    <string name="overlay_value_per_km">R$/km: %.2f</string>
+    <string name="overlay_value_per_hour">R$/h: %.2f</string>
+    <string name="overlay_origin">Origem: %s</string>
+    <string name="overlay_destination">Destino: %s</string>
+
+    <!-- History -->
+    <string name="history_empty">Nenhuma corrida registrada</string>
+    <string name="history_accepted">Aceita</string>
+    <string name="history_rejected">Recusada</string>
+    <string name="history_ignored">Ignorada</string>
+    <string name="history_filter_all">Todas</string>
+    <string name="history_filter_accepted">Aceitas</string>
+    <string name="history_filter_rejected">Recusadas</string>
+
+    <!-- Stats -->
+    <string name="stats_period_today">Hoje</string>
+    <string name="stats_period_week">Semana</string>
+    <string name="stats_period_month">Mês</string>
+    <string name="stats_period_all">Tudo</string>
+    <string name="stats_total_earnings">Total ganho</string>
+    <string name="stats_total_deliveries">Total entregas</string>
+    <string name="stats_avg_per_km">Média R$/km</string>
+    <string name="stats_avg_per_hour">Média R$/h</string>
+    <string name="stats_best_hour">Melhor hora</string>
+    <string name="stats_best_day">Melhor dia</string>
+    <string name="stats_by_neighborhood">Por bairro</string>
+    <string name="stats_by_hour">Por hora</string>
+    <string name="stats_by_weekday">Por dia da semana</string>
+
+    <!-- Permissions -->
+    <string name="perm_accessibility_title">Ativar Acessibilidade</string>
+    <string name="perm_accessibility_desc">O app precisa ler a tela do iFood para detectar ofertas</string>
+    <string name="perm_overlay_title">Permitir Overlay</string>
+    <string name="perm_overlay_desc">Mostra a bolha de decisão sobre o app do iFood</string>
+    <string name="perm_notification_title">Permitir Notificações</string>
+    <string name="perm_notification_desc">Alertas quando detectar oferta valiosa</string>
+
+    <!-- Actions -->
+    <string name="action_accept">Aceitei</string>
+    <string name="action_reject">Recusei</string>
+    <string name="action_ignore">Ignorar</string>
+    <string name="action_settings">Configurações</string>
+    <string name="action_refresh">Atualizar</string>
+    <string name="action_export">Exportar</string>
+    <string name="action_share">Compartilhar</string>
+    <string name="action_delete">Excluir</string>
+
+    <!-- Messages -->
+    <string name="msg_offer_detected">Oferta detectada!</string>
+    <string name="msg_settings_saved">Configurações salvas</string>
+    <string name="msg_export_success">CSV exportado para Downloads</string>
+    <string name="msg_import_success">Dados importados</string>
+    <string name="msg_backup_success">Backup criado</string>
+    <string name="msg_restore_success">Backup restaurado</string>
+    <string name="msg_history_cleared">Histórico limpo</string>
+    <string name="msg_error_parse">Erro ao ler tela do iFood</string>
+    <string name="msg_ifood_not_found">iFood Entregador não encontrado</string>
+
+    <!-- Defaults -->
+    <string name="default_min_value_per_km">4.00</string>
+    <string name="default_min_value_per_hour">55.00</string>
+    <string name="default_max_distance">15</string>
+    <string name="default_min_value_total">10.00</string>
+    <string name="default_peak_multiplier">1.2</string>
+    <string name="default_peak_start">11:00</string>
+    <string name="default_peak_end">14:00</string>
+    <string name="default_peak_start2">18:00</string>
+    <string name="default_peak_end2">21:00</string>
+    <string name="default_auto_dismiss">15</string>
+</resources>

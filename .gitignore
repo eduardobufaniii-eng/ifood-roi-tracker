@@ -1,0 +1,83 @@
+# Gradle
+.gradle/
+build/
+*/build/
+*/build/
+!gradlew
+!gradlew.bat
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local configuration
+local.properties
+*.properties
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Android
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+*.jar
+*.so
+*.o
+*.lo
+*.obj
+*.a
+*.dll
+*.dylib
+*.dylib.dSYM
+
+# Keystore
+*.jks
+*.keystore
+keystore.jks
+
+# Generated files
+*.generated.java
+*.generated.kt
+*.ap_
+
+# Test reports
+*/test-results/
+*/coverage/
+
+# Crashlytics
+*.crashlytics-build.properties
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*
+fastlane/test_output/**/*
+
+# Flutter (if any)
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+pubspec.lock
+
+# Kotlin
+*.kt.metadata
+
+# KSP
+build/generated/ksp/
+
+# Compose
+compose_build_cache/
+
+# Hilt
+build/generated/hilt/
